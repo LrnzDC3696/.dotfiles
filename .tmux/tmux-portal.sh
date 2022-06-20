@@ -7,7 +7,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/mnt/c/Users/Enzo ~/.tmux ~/.config/nvim -type d -not -path '*/\.git*' | fzf)
+    selected=$(find /mnt/c/Users/Enzo/Codes ~/.tmux ~/.config/nvim -type d -not -path '*/\.git*' | fzf)
 fi
 
 # If nothing is selected; then exit
@@ -44,9 +44,14 @@ tmux neww -t $selected_name: -n logs -c $selected
 tmux neww -t $selected_name: -n shell -c $selected
 
 if [[ -f $selected/Pipfile ]]; then
-    tmux send-keys -t $selected_name:editor "pipenv shell" Enter "clear" Enter
-    tmux send-keys -t $selected_name:logs "pipenv shell" Enter "clear" Enter
-    tmux send-keys -t $selected_name:shell "pipenv shell" Enter "clear" Enter
+    tmux send-keys -t $selected_name:editor "pipenv shell" Enter
+    tmux send-keys -t $selected_name:logs "pipenv shell" Enter
+    tmux send-keys -t $selected_name:shell "pipenv shell" Enter
+
+    tmux send-keys -t $selected_name:editor "clear" Enter
+    tmux send-keys -t $selected_name:logs "clear" Enter
+    tmux send-keys -t $selected_name:shell "clear" Enter
+
     tmux send-keys -t $selected_name:editor "v" Enter
 fi
 

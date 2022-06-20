@@ -118,17 +118,17 @@ fi
 
 # My stuff lies here... ---------------------------------------------------------------
 
-if [ -r /mnt/c/Users/Enzo ]
+if [ -r mnt/c/Users/Enzo ]
 then
 
-  if ! [ -r /mnt/c/Users/Enzo/Codes ]
+  if ! [ -r mnt/c/Users/Enzo/Codes ]
   then
-    mkdir /mnt/c/Users/Enzo/Codes
+    mkdir mnt/c/Users/Enzo/Codes
   fi
 
-  if ! [ -r /mnt/c/Users/Enzo/Codes/scripts ]
+  if ! [ -r mnt/c/Users/Enzo/Codes/scripts ]
   then
-    mkdir /mnt/c/Users/Enzo/Codes/scripts
+    mkdir mnt/c/Users/Enzo/Codes/scripts
   fi
 
   echo '
@@ -156,8 +156,8 @@ alias pe='pipenv'
 alias tf='bash ~/.tmux/tmux-portal.sh'
 alias ff='cd $(find /mnt/c/Users/Enzo ~/.config/nvim -type d -not -path "*/\.git*" | fzf)'
 
-if [ -d /mnt/c/Users/Enzo ]
+if [ -d mnt/c/Users/Enzo ]
 then
-  cd /mnt/c/Users/Enzo
+  cd mnt/c/Users/Enzo
 fi
 
