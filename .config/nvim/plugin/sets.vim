@@ -42,6 +42,3 @@ endif
 if !isdirectory(&undodir)
     call mkdir(&undodir, "p")
 endif
-
-
-let g:dracula_italic = 0

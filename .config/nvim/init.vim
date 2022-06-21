@@ -16,6 +16,9 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'ThePrimeagen/harpoon'
 
+"" - Note and Todo
+Plug 'vimwiki/vimwiki'
+
 "" - Code Commenter
 Plug 'tpope/vim-commentary'
 
@@ -41,6 +44,7 @@ filetype plugin on
 "" COLORSHEME STUFF
 set termguicolors
 
+let g:dracula_italic=0
 colorscheme dracula
 
 "" CUSTOM STUFF
@@ -90,8 +94,8 @@ endif
 " WSL yank support
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
 if executable(s:clip)
-    augroup WSLYank
-        autocmd!
-        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
-    augroup END
+  augroup WSLYank
+    autocmd!
+    autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+  augroup END
 endif

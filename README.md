@@ -10,21 +10,26 @@ Setup for my laptop
 
 ### General
 
-- [ ] Make a readme on how I setup my laptop
-- [ ] removing italics in vim
-- [ ] removing highlights in folders (shell ls)
+- [ ] Make a readme on how I setup my laptop + the capslock change
+- [x] removing italics in vim
+- [x] removing highlights in folders (shell ls)
 
-- [ ] tmux copy pasta on system clipboard
-- [ ] tmux vim mode
-- [ ] add a todo in vim
-- [ ] rename my name to anya
+- [x] tmux copy pasta on system clipboard (go on copy mode then paste, to paste
+      on another pane do `ctrl + ]`)
+- [ ] add vimwiki in vim
+
+- [ ] change the .bashrc code (it is bad)
+  - [ ] rename my name to anya
 
 ### Setup add
 
-- [ ] tmux
-- [ ] colemak japanese
+- [ ] drive bluetooth
+- [x] chrome vimium
+- [x] chrome yt ad block
 
 ### What I want to be
 
+- [ ] learn vimwiki
+- [ ] learn vimium
 - [ ] faster in vim
 - [ ] faster in general
