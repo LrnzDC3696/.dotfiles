@@ -16,8 +16,8 @@ Setup for my laptop
       on another pane do `ctrl + ]`)
 - [x] add vimwiki in vim
 
-- [ ] change the .bashrc code (it is bad)
-  - [ ] rename my name to anya
+%% - [ ] change the .bashrc code (it is bad)
+%%   - [ ] rename my name to anya
 
 ### Setup add
 
