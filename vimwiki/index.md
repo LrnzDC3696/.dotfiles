@@ -1,18 +1,19 @@
-= My Notes =
+# My Notes
 
-== General Todo ==
-- [ ] Fix the tmux bug
+## General Todo
+- [ ] Fix the tmux bug (not doing pipenv for some reason)
+  - [ ] Learn how tmux works
 - [ ] Fix the .bashrc to be flexible
   - [ ] rename my name to anya
 
-=== To Learn ===
+### To Learn
 - [ ] learn vimwiki
 - [ ] learn harpoon
 - [ ] learn vimdotenv
 - [ ] learn vimium (chrome ext)
 - [ ] learn discord shortcuts
 
-=== Done ===
+### Done
 - [x] Make a readme on how I setup my laptop + the capslock change (and how to undo it)
 - [x] removing italics in vim
 - [x] removing highlights in folders (shell ls)
@@ -23,6 +24,6 @@
 - [x] add chrome ext vimium
 - [x] add chrome ext yt ad block
 
-== Projects ==
+## Projects
 
-== Ideas ==
+## Ideas
