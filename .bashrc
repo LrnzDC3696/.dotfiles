@@ -135,32 +135,28 @@ then
     mkdir /mnt/c/Users/Enzo/Codes/scripts
   fi
 
-#   echo '
-# ██╗     ██████╗ ███╗   ██╗███████╗
-# ██║     ██╔══██╗████╗  ██║╚══███╔╝
-# ██║     ██████╔╝██╔██╗ ██║  ███╔╝
-# ██║     ██╔══██╗██║╚██╗██║ ███╔╝
-# ███████╗██║  ██║██║ ╚████║███████╗
-# ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝
-#   '
-
 fi
 
 alias c='clear'
+
 alias v='nvim'
 alias vim='nvim'
 alias nvimrc='cd ~/.config/nvim/'
+
 alias home='cd /mnt/c/Users/Enzo'
 alias config='/usr/bin/git --git-dir=/home/enzo/.cfg/ --work-tree=/home/enzo'
 alias resource='source ~/.bashrc'
 alias revise='sudo apt update -y && sudo apt upgrade -y'
 alias pkg='sudo apt'
+
 alias p='python3'
 alias pm='python3 manage.py'
 alias pe='pipenv'
+
 alias tf='bash ~/.tmux/tmux-portal.sh'
 alias ff='cd $(find /mnt/c/Users/Enzo ~/.config/nvim -type d -not -path "*/\.git*" | fzf)'
 
+tmux
 # if [ -d mnt/c/Users/Enzo ]
 # then
 #   cd mnt/c/Users/Enzo
