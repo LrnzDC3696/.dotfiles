@@ -1,10 +1,12 @@
-# My Notes
+e My Notes
 
 ## General Todo
 - [ ] Fix the tmux bug (not doing pipenv for some reason)
   - [ ] Learn how tmux works
+- [ ] Fix the tmux bug (not attaching the session if it exists already)
 - [ ] Fix the .bashrc to be flexible
   - [ ] rename my name to anya
+- [ ] Rename to LrnzDc in github
 
 ### To Learn
 - [ ] learn vimwiki

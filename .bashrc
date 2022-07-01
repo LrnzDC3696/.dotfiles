@@ -156,8 +156,7 @@ alias pe='pipenv'
 alias tf='bash ~/.tmux/tmux-portal.sh'
 alias ff='cd $(find /mnt/c/Users/Enzo ~/.config/nvim -type d -not -path "*/\.git*" | fzf)'
 
-tmux
-# if [ -d mnt/c/Users/Enzo ]
-# then
-#   cd mnt/c/Users/Enzo
-# fi
+
+if [[ -z $TMUX ]] && [[ -z $(pgrep tmux) ]]; then
+    tmux
+fi
