@@ -1,8 +1,9 @@
-e My Notes
+# My Notes
 
 ## General Todo
 - [ ] Fix the tmux bug (not doing pipenv for some reason)
   - [ ] Learn how tmux works
+    - [ ] poetry support
 - [ ] Fix the tmux bug (not attaching the session if it exists already)
 - [ ] Fix the .bashrc to be flexible
   - [ ] rename my name to anya
@@ -27,5 +28,10 @@ e My Notes
 - [x] add chrome ext yt ad block
 
 ## Projects
+
+### Bladelist Bot
+- [ ] ping pong
+- [ ] have a workable structure
+- [ ]
 
 ## Ideas

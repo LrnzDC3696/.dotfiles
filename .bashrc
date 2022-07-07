@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -144,6 +144,7 @@ alias vim='nvim'
 alias nvimrc='cd ~/.config/nvim/'
 
 alias home='cd /mnt/c/Users/Enzo'
+alias code='cd /mnt/c/Users/Enzo/Codes'
 alias config='/usr/bin/git --git-dir=/home/enzo/.cfg/ --work-tree=/home/enzo'
 alias resource='source ~/.bashrc'
 alias revise='sudo apt update -y && sudo apt upgrade -y'
@@ -157,6 +158,7 @@ alias tf='bash ~/.tmux/tmux-portal.sh'
 alias ff='cd $(find /mnt/c/Users/Enzo ~/.config/nvim -type d -not -path "*/\.git*" | fzf)'
 
 
+# if tmux is not none
 if [[ -z $TMUX ]] && [[ -z $(pgrep tmux) ]]; then
     tmux
 fi
